@@ -1,5 +1,4 @@
 import React from "react";
-import Courses from "../data/db.json";
 import CourseImage from "./CourseImage";
 import CourseTitle from "./CourseTitle";
 import CourseInstructor from "./CourseInstructor";
@@ -10,16 +9,16 @@ import "./components styles/CourseCard.css";
 function CourseCard(props) {
   return (
     <div className="course-card">
-      <CourseImage url={Courses.courses[0].image} />
-      <CourseTitle title={Courses.courses[0].title} />
-      <CourseInstructor instructor={Courses.courses[0].instructor} />
+      <CourseImage url={props.course.image} />
+      <CourseTitle title={props.course.title} />
+      <CourseInstructor instructor={props.course.instructor} />
       <CourseRating
-        rate={Courses.courses[0].rate}
-        enrolled={Courses.courses[0].enrollCount}
+        rate={props.course.rate}
+        enrolled={props.course.enrollCount}
       />
       <CoursePrice
-        price={Courses.courses[0].price}
-        originalPrice={Courses.courses[0].originalPrice}
+        price={props.course.price}
+        originalPrice={props.course.originalPrice}
       />
     </div>
   );
