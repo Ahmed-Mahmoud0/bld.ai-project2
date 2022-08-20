@@ -1,10 +1,10 @@
 import "./App.css";
-import CourseList from "./components/CourseList";
+import CourseSection from "./components/CourseSection";
 
 function App() {
   return (
     <div className="App">
-      <CourseList />
+      <CourseSection />
     </div>
   );
 }
