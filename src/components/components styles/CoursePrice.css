@@ -1,0 +1,12 @@
+.course-price {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.final-price {
+  display: inline-block;
+}
+.original-price {
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  text-indent: 20%;
+}

@@ -1,0 +1,28 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0 1% 1% 0;
+  width: fit-content;
+}
+
+h3 {
+  padding-left: 1px;
+  padding-bottom: 3%;
+}
+
+h6 {
+  padding-left: 1px;
+  padding-bottom: 5%;
+}
+
+.rating-box {
+  padding-left: 1px;
+  padding-bottom: 3%;
+}
+
+.course-price {
+  padding-left: 1px;
+  padding-bottom: 3%;
+}
