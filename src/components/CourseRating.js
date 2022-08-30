@@ -6,11 +6,11 @@ function CourseRating(props) {
     <div className="rating-box">
       <div className="rate">{props.rate}.0</div>
       <div className="stars">
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
+        <div className="star" />
+        <div className="star" />
+        <div className="star" />
+        <div className="star" />
+        <div className="star" />
       </div>
       <div className="enrolled">({props.enrolled})</div>
     </div>
