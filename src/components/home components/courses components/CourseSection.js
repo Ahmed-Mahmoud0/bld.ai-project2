@@ -5,8 +5,9 @@ import SectionDescription from "./SectionDescription";
 import SectionTitle from "./SectionTitle";
 import "../../components styles/courses styles/CourseSection.css";
 import { CoursesIntro } from "./CoursesIntro";
+import { LoadingSpinner } from "../../../components/LoadingSpinner";
 
-function CourseSection() {
+function CourseSection({ loading }) {
   return (
     <>
       <CoursesIntro />
@@ -14,7 +15,7 @@ function CourseSection() {
         <SectionTitle />
         <SectionDescription />
         <ExploreButton />
-        <CourseList />
+        {loading ? <LoadingSpinner /> : <CourseList />}
       </div>
     </>
   );

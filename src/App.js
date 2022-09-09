@@ -13,10 +13,12 @@ export const CoursesContext = createContext();
 
 function App() {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     axios.get(baseURL).then((response) => {
       setData(response.data);
     });
+    setLoading(false);
   }, []);
 
   useEffect(() => {
@@ -28,7 +30,7 @@ function App() {
       <CoursesContext.Provider value={data}>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home loading={loading} />} />
           <Route path="/course-page/:courseId" element={<CoursePage />} />
         </Routes>
         <Footer />
