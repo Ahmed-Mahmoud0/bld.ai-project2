@@ -2,11 +2,16 @@ import React from "react";
 import "../components styles/navbar styles/SearchBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { useSearchParams } from "react-router-dom";
 
 export const SearchBar = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("Clicked");
+    const searchData = event.target[0].value;
+    searchData === ""
+      ? setSearchParams({})
+      : setSearchParams({ filter: searchData });
   };
 
   return (
