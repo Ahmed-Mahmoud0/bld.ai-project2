@@ -1,0 +1,8 @@
+.course-header {
+  background-color: #1c1d1f;
+  height: 17rem;
+  padding: 2rem 40rem 2rem 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

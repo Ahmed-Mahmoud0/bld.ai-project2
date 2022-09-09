@@ -1,0 +1,17 @@
+.explore-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 0 20% 0;
+}
+
+.explore-button:hover {
+  background-color: purple;
+  border: 1px solid purple;
+  color: white;
+}

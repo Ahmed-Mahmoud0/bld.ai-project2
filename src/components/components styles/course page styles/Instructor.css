@@ -1,0 +1,19 @@
+.instructor-main h3 {
+  text-decoration: underline;
+  color: #5624d0;
+  margin-bottom: 0.33rem;
+  width: fit-content;
+}
+.instructor-intro {
+  padding: 0;
+  margin-top: 0;
+  color: #6a6f73;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.inst-desc {
+  margin-top: 1rem;
+  text-indent: 1rem;
+  font-size: 85%;
+}

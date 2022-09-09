@@ -1,0 +1,16 @@
+.course-overview {
+  border: 1px solid lightgrey;
+  font-size: 90%;
+  padding: 0 0rem;
+}
+
+.course-overview h2 {
+  padding: 0 1rem;
+}
+
+.course-overview ul {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+}

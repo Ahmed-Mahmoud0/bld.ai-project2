@@ -1,0 +1,10 @@
+.lang-icon {
+  border-style: solid;
+  border-width: 1px;
+  padding: 75% 60%;
+}
+
+.lang-icon:hover {
+  border-color: purple;
+  cursor: pointer;
+}

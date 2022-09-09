@@ -1,0 +1,24 @@
+.header-text {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 24rem;
+  height: auto;
+  padding: 2%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.header-text:hover {
+  background-color: purple;
+  color: white;
+}
+
+.header-text h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header-text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
