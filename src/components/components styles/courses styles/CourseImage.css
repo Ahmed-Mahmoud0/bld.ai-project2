@@ -1,0 +1,8 @@
+.course-image img {
+  width: 16rem;
+  height: 9rem;
+}
+
+.course-image:hover {
+  cursor: pointer;
+}

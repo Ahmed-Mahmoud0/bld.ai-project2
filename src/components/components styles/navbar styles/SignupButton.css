@@ -1,0 +1,17 @@
+.signup-button {
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  background-color: purple;
+  border-color: purple;
+  color: white;
+}

@@ -1,0 +1,25 @@
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.content-info {
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 90%;
+  color: #1c1d1f;
+}
+
+.info-container button {
+  background-color: transparent;
+  border: none;
+  color: #5624d0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.course-content-wrapper h2 {
+  margin: 1rem 0;
+}

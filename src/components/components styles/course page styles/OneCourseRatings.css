@@ -1,0 +1,18 @@
+.rt-gold {
+  color: orange;
+  font-weight: bold;
+}
+
+.rt-purple {
+  color: #cec0fc;
+}
+
+.rt-white {
+  color: white;
+}
+
+.one-course-rating a {
+  font-weight: normal;
+  color: #cec0fc;
+  text-decoration: underline;
+}

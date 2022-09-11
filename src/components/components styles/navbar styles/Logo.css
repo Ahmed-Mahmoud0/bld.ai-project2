@@ -1,0 +1,8 @@
+.navbar-logo img {
+  width: 91px;
+  height: 34px;
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
+}

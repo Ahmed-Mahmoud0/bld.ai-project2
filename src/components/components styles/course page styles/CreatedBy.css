@@ -1,0 +1,8 @@
+.created-by {
+  color: white;
+}
+
+.created-by a {
+  color: #cec0fc;
+  text-decoration: underline;
+}

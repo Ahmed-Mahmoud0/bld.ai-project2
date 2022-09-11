@@ -1,0 +1,9 @@
+.req {
+  margin-top: 1rem;
+}
+
+.req ul {
+  padding-left: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+}

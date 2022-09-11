@@ -1,0 +1,32 @@
+nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 85%;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0.8% 1.5%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.navbar * {
+  margin-right: 1%;
+}
+
+.search-form {
+  flex-grow: 1;
+}
+
+.lang-icon {
+  margin-right: 0;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}

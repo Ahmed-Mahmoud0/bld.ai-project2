@@ -1,0 +1,26 @@
+.short-nav {
+  /* padding: 1rem 40rem 1rem 15rem; */
+  padding-left: 15em;
+  padding-right: 35rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 90%;
+  font-weight: bolder;
+  position: sticky;
+  top: 74px;
+  background-color: white;
+}
+
+.short-nav a {
+  display: inline-block;
+  color: grey;
+  padding: 1rem 3.5rem;
+}
+
+.short-nav a:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}

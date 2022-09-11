@@ -1,0 +1,16 @@
+.desc-par {
+  font-size: 90%;
+}
+
+.desc-par p {
+  margin: 0.5rem 0;
+}
+
+.show-more-btn {
+  background-color: transparent;
+  border: none;
+  color: #401b9c;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 0.3rem 0 0;
+}
